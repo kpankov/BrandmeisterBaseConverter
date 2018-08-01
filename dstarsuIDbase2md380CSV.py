@@ -1,6 +1,6 @@
 import argparse
 
-parser = argparse.ArgumentParser(description='Merge DSTAR bin and md380 csv.')
+parser = argparse.ArgumentParser(description='Merge D-STAR bin and md380 csv.')
 
 parser.add_argument('BIN', type=str, help='Input *.bin file path')
 parser.add_argument('CSV_IN', type=str, help='Input *.csv file path')
